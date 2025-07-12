@@ -1,0 +1,5 @@
+Crie uma classe Animal com um método fazerSom(). Depois, crie duas subclasses:
+Cachorro e Gato, que sobrescrevem o método fazerSom().
+
+Depois, crie um array de Animal contendo objetos de Cachorro e Gato, e chame o
+método fazerSom() para cada um.

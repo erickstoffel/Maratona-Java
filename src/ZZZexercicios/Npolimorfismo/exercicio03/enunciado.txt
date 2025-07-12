@@ -1,0 +1,7 @@
+Crie uma classe Funcionario com um método calcularSalario(). Crie duas subclasses:
+ Gerente e Desenvolvedor, cada uma com sua implementação de cálculo de salário.
+
+Depois, crie um método chamado imprimirSalario(Funcionario f) que imprime o salário chamando
+calcularSalario() no objeto recebido.
+
+Chame esse método passando diferentes tipos de funcionários.
