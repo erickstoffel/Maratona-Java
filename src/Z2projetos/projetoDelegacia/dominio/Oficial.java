@@ -9,6 +9,7 @@ public abstract class Oficial extends Pessoa{
     private String distintivoID;
     private double salario;
     private int casosResolvidos;
+    private List<Arma> armas;
     private List<BoletimOcorrencia> casosAbertos;
 
     public Oficial(String nome, int idade, String cpf, Sexo sexo, Endereco endereco) {
@@ -16,7 +17,8 @@ public abstract class Oficial extends Pessoa{
         this.distintivoID = setDistintivoID();
         this.salario = setSalario();
         this.casosResolvidos = 0;
-        this.casosAbertos = new ArrayList<>();
+        this.armas = new ArrayList<Arma>();
+        this.casosAbertos = new ArrayList<BoletimOcorrencia>();
     }
 
     public abstract String setDistintivoID();
