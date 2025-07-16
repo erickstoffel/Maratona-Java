@@ -15,14 +15,14 @@ public class WrapperTest01 {
 
         Byte byteW = 127;
         Short shortW = 1;
-        Integer intW = 1;
-        Long longW = 1L        ;
+        Integer intW = 1; //Boxing
+        Long longW = 1L;
         Float floatW = 1F;
         Double doubleW = 1D;
         Character charW = 'a';
         Boolean booleanW = false;
 
-        List<Integer> list;
+        int i = intW; //Unboxing
 
 
     }
