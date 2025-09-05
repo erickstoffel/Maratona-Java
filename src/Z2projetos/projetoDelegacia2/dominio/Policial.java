@@ -60,4 +60,28 @@ public abstract class Policial extends Pessoa{
     public List<Arma> getArmas() {
         return armas;
     }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
+    public void setDistintivo(String distintivo) {
+        this.distintivo = distintivo;
+    }
+
+    public void setCasosResolvidos(int casosResolvidos) {
+        this.casosResolvidos = casosResolvidos;
+    }
+
+    public void setNivelAcesso(int nivelAcesso) {
+        this.nivelAcesso = nivelAcesso;
+    }
+
+    public void setCasosAbertos(List<BoletimOcorrencia> casosAbertos) {
+        this.casosAbertos = casosAbertos;
+    }
+
+    public void setArmas(List<Arma> armas) {
+        this.armas = armas;
+    }
 }

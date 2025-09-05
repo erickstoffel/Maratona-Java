@@ -35,7 +35,9 @@ public class Test01 {
         System.out.println("----------");
         delegacia.listarPoliciais();
 
-        bo1.setEncarregado(soldado1);
         bo2.setEncarregado(soldado1);
+
+        delegacia.resolverCaso(bo2);
+
     }
 }

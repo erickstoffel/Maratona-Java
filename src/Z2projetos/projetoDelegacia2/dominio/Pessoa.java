@@ -1,6 +1,6 @@
 package Z2projetos.projetoDelegacia2.dominio;
 
-public abstract class Pessoa {
+public class Pessoa {
     private String nome;
     private int idade;
     private String cpf;
